@@ -1,0 +1,22 @@
+
+@media only screen and (max-width: 1170px) {
+    .banner-img{
+        width: 400px;
+    }
+} 
+
+@media only screen and (max-width: 930px) {
+    .banner-img{
+        width: 350px;
+        margin-left: 2rem;
+    }
+
+    .banner-info h1{
+        font-size: 2rem;
+    }
+
+    .banner-info h3{
+        font-size: 1.5rem;
+    }
+}
+

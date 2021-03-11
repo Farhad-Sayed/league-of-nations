@@ -1,16 +1,9 @@
+.banner-img{
+    margin-right: 2rem;
+}
 
-@media only screen and (max-width: 1170px) {
-    .banner-img{
-        width: 400px;
-    }
-} 
-
-@media only screen and (max-width: 930px) {
-    .banner-img{
-        width: 350px;
-        margin-left: 2rem;
-    }
-
+/* Responsivenes css starts */
+@media only screen and (max-width: 1270px) {
     .banner-info h1{
         font-size: 2rem;
     }
@@ -18,5 +11,41 @@
     .banner-info h3{
         font-size: 1.5rem;
     }
+} 
+
+
+
+@media only screen and (max-width: 1170px) {
+    .banner-img{
+        width: 400px;
+    }
+} 
+
+@media only screen and (max-width: 970px) {
+    .banner-info h1{
+        font-size: 1.8rem;
+    }
+
+    .banner-info h3{
+        font-size: 1.2rem;
+    }
+} 
+
+@media only screen and (max-width: 930px) {
+    .league-info{
+        display: grid;
+    }
+    .banner-img{
+        width: 100%;
+        margin-left: 2rem;
+    }
 }
 
+
+@media only screen and (max-width: 764px) {
+    .banner-img{
+        width: 100%;
+        margin:0 auto;
+        padding: 10px;
+    }
+} 

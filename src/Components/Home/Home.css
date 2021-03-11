@@ -1,6 +1,6 @@
-/* .main{
-    background-color: #005B44;
-} */
+.main{
+    background-color: rgba(0, 0, 0, 0.897);
+}
 
 .header{
     width: 100%;
@@ -19,5 +19,20 @@
     color: #fff;
     padding-top: 2rem;
 }
+
+/* responsiveness */
+
+@media only screen and (max-width: 1199px) {
+    .leagues .card-item{
+        margin-left: 4rem;
+    }
+} 
+
+@media only screen and (max-width: 999px) {
+    .leagues .card-item{
+        margin-left: 4rem;
+        margin-right: 2rem;
+    }
+} 
 
 

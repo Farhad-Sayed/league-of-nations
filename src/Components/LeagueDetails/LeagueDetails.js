@@ -44,8 +44,8 @@ const LeagueDetails = () => {
                         <div className="d-flex justify-content-end my-4">
                             {
                                 strGender === "Male"?
-                                <img className="banner-img" style={{height:'300px', marginRight:'2rem'}} src={maleImage} alt=""/>:
-                                <img className="banner-img" style={{height:'300px', marginRight:'2rem'}} src={femaleImage} alt=""/>
+                                <img className="banner-img" style={{height:'300px'}} src={maleImage} alt=""/>:
+                                <img className="banner-img" style={{height:'300px'}} src={femaleImage} alt=""/>
                             }
                         </div>
                         </Col>                       

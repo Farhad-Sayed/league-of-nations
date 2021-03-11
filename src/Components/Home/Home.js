@@ -17,10 +17,10 @@ const Home = () => {
             <div className="header">
                  <h1 className="title">Leagues of World</h1>
             </div>
-            <Container className="leagues">
-                <Row>
+            <Container>
+                <Row className="leagues">
                     {
-                        leagues.map(league=> <Col md={4} className="py-3"> <Leagues league = {league} key={league.idLeague}></Leagues></Col>)
+                        leagues.map(league=> <Col md={4} className="py-3 card-item"> <Leagues league = {league} key={league.idLeague}></Leagues></Col>)
                     }  
                 </Row>
             </Container>
